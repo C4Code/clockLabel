@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB40F3415646A5200DE4F6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3315646A5200DE4F6C /* AVFoundation.framework */; };
+		EDB40F3615646A5200DE4F6C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3515646A5200DE4F6C /* CoreFoundation.framework */; };
+		EDB40F3815646A5200DE4F6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3715646A5200DE4F6C /* CoreGraphics.framework */; };
+		EDB40F3A15646A5200DE4F6C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3915646A5200DE4F6C /* CoreImage.framework */; };
+		EDB40F3C15646A5200DE4F6C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3B15646A5200DE4F6C /* CoreMedia.framework */; };
+		EDB40F3E15646A5200DE4F6C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3D15646A5200DE4F6C /* CoreText.framework */; };
+		EDB40F4015646A5200DE4F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F3F15646A5200DE4F6C /* Foundation.framework */; };
+		EDB40F4215646A5200DE4F6C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F4115646A5200DE4F6C /* OpenGLES.framework */; };
+		EDB40F4415646A5200DE4F6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F4315646A5200DE4F6C /* QuartzCore.framework */; };
+		EDB40F4615646A5200DE4F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F4515646A5200DE4F6C /* UIKit.framework */; };
+		EDB40F4C15646A5200DE4F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F4A15646A5200DE4F6C /* InfoPlist.strings */; };
+		EDB40F4E15646A5200DE4F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F4D15646A5200DE4F6C /* main.m */; };
+		EDB40F5315646A5200DE4F6C /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F5215646A5200DE4F6C /* C4AppDelegate.m */; };
+		EDB40F5515646A5200DE4F6C /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB40F5415646A5200DE4F6C /* C4WorkSpace.m */; };
+		EDB40F7215646A5300DE4F6C /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB40F7115646A5300DE4F6C /* libC4.a */; };
+		EDB40F7E15646A5400DE4F6C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F7D15646A5400DE4F6C /* iTunesArtwork.png */; };
+		EDB40F8115646A5400DE4F6C /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F7F15646A5400DE4F6C /* C4Canvas.xib */; };
+		EDB40F8315646A5400DE4F6C /* C4LogoiPad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8215646A5400DE4F6C /* C4LogoiPad-01.png */; };
+		EDB40F8515646A5400DE4F6C /* C4LogoiPad-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8415646A5400DE4F6C /* C4LogoiPad-01@2x.png */; };
+		EDB40F8715646A5400DE4F6C /* C4LogoiPad-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8615646A5400DE4F6C /* C4LogoiPad-02.png */; };
+		EDB40F8915646A5400DE4F6C /* C4LogoiPad-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8815646A5400DE4F6C /* C4LogoiPad-03.png */; };
+		EDB40F8B15646A5400DE4F6C /* C4LogoiPad-04.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8A15646A5400DE4F6C /* C4LogoiPad-04.png */; };
+		EDB40F8D15646A5400DE4F6C /* C4LogoiPad-05.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8C15646A5400DE4F6C /* C4LogoiPad-05.png */; };
+		EDB40F8F15646A5400DE4F6C /* C4LogoiPad-06.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F8E15646A5400DE4F6C /* C4LogoiPad-06.png */; };
+		EDB40F9115646A5400DE4F6C /* C4LogoiPad-07.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9015646A5400DE4F6C /* C4LogoiPad-07.png */; };
+		EDB40F9315646A5400DE4F6C /* C4LogoiPad-08.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9215646A5400DE4F6C /* C4LogoiPad-08.png */; };
+		EDB40F9515646A5400DE4F6C /* C4LogoiPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9415646A5400DE4F6C /* C4LogoiPad-Landscape.png */; };
+		EDB40F9715646A5400DE4F6C /* C4LogoiPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9615646A5400DE4F6C /* C4LogoiPad-Portrait.png */; };
+		EDB40F9915646A5400DE4F6C /* C4LogoiPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9815646A5400DE4F6C /* C4LogoiPad-Landscape@2x.png */; };
+		EDB40F9B15646A5400DE4F6C /* C4LogoiPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB40F9A15646A5400DE4F6C /* C4LogoiPad-Portrait@2x.png */; };
+		EDB40FAB15646C4B00DE4F6C /* C4DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB40FAA15646C4B00DE4F6C /* C4DateTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDB40F2F15646A5200DE4F6C /* clockLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clockLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB40F3315646A5200DE4F6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EDB40F3515646A5200DE4F6C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EDB40F3715646A5200DE4F6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDB40F3915646A5200DE4F6C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EDB40F3B15646A5200DE4F6C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EDB40F3D15646A5200DE4F6C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EDB40F3F15646A5200DE4F6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDB40F4115646A5200DE4F6C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EDB40F4315646A5200DE4F6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EDB40F4515646A5200DE4F6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDB40F4915646A5200DE4F6C /* clockLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clockLabel-Info.plist"; sourceTree = "<group>"; };
+		EDB40F4B15646A5200DE4F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB40F4D15646A5200DE4F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB40F4F15646A5200DE4F6C /* clockLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clockLabel-Prefix.pch"; sourceTree = "<group>"; };
+		EDB40F5015646A5200DE4F6C /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		EDB40F5115646A5200DE4F6C /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4AppDelegate.h; sourceTree = "<group>"; };
+		EDB40F5215646A5200DE4F6C /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4AppDelegate.m; sourceTree = "<group>"; };
+		EDB40F5415646A5200DE4F6C /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		EDB40F5715646A5200DE4F6C /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		EDB40F5815646A5200DE4F6C /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		EDB40F5915646A5200DE4F6C /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		EDB40F5A15646A5200DE4F6C /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		EDB40F5B15646A5200DE4F6C /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		EDB40F5C15646A5200DE4F6C /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		EDB40F5D15646A5200DE4F6C /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		EDB40F5E15646A5200DE4F6C /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		EDB40F5F15646A5200DE4F6C /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		EDB40F6015646A5200DE4F6C /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		EDB40F6115646A5200DE4F6C /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		EDB40F6215646A5200DE4F6C /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		EDB40F6315646A5200DE4F6C /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		EDB40F6415646A5300DE4F6C /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		EDB40F6515646A5300DE4F6C /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		EDB40F6615646A5300DE4F6C /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		EDB40F6715646A5300DE4F6C /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		EDB40F6815646A5300DE4F6C /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		EDB40F6915646A5300DE4F6C /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		EDB40F6A15646A5300DE4F6C /* C4PlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4PlayerLayer.h; path = Headers/C4PlayerLayer.h; sourceTree = "<group>"; };
+		EDB40F6B15646A5300DE4F6C /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		EDB40F6C15646A5300DE4F6C /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		EDB40F6D15646A5300DE4F6C /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		EDB40F6E15646A5300DE4F6C /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		EDB40F6F15646A5300DE4F6C /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		EDB40F7015646A5300DE4F6C /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
+		EDB40F7115646A5300DE4F6C /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
+		EDB40F7D15646A5400DE4F6C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
+		EDB40F8015646A5400DE4F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
+		EDB40F8215646A5400DE4F6C /* C4LogoiPad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01.png"; path = "Logos/C4LogoiPad-01.png"; sourceTree = "<group>"; };
+		EDB40F8415646A5400DE4F6C /* C4LogoiPad-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01@2x.png"; path = "Logos/C4LogoiPad-01@2x.png"; sourceTree = "<group>"; };
+		EDB40F8615646A5400DE4F6C /* C4LogoiPad-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-02.png"; path = "Logos/C4LogoiPad-02.png"; sourceTree = "<group>"; };
+		EDB40F8815646A5400DE4F6C /* C4LogoiPad-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-03.png"; path = "Logos/C4LogoiPad-03.png"; sourceTree = "<group>"; };
+		EDB40F8A15646A5400DE4F6C /* C4LogoiPad-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-04.png"; path = "Logos/C4LogoiPad-04.png"; sourceTree = "<group>"; };
+		EDB40F8C15646A5400DE4F6C /* C4LogoiPad-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-05.png"; path = "Logos/C4LogoiPad-05.png"; sourceTree = "<group>"; };
+		EDB40F8E15646A5400DE4F6C /* C4LogoiPad-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-06.png"; path = "Logos/C4LogoiPad-06.png"; sourceTree = "<group>"; };
+		EDB40F9015646A5400DE4F6C /* C4LogoiPad-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-07.png"; path = "Logos/C4LogoiPad-07.png"; sourceTree = "<group>"; };
+		EDB40F9215646A5400DE4F6C /* C4LogoiPad-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-08.png"; path = "Logos/C4LogoiPad-08.png"; sourceTree = "<group>"; };
+		EDB40F9415646A5400DE4F6C /* C4LogoiPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Landscape.png"; path = "Logos/C4LogoiPad-Landscape.png"; sourceTree = "<group>"; };
+		EDB40F9615646A5400DE4F6C /* C4LogoiPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Portrait.png"; path = "Logos/C4LogoiPad-Portrait.png"; sourceTree = "<group>"; };
+		EDB40F9815646A5400DE4F6C /* C4LogoiPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Landscape@2x.png"; path = "Logos/C4LogoiPad-Landscape@2x.png"; sourceTree = "<group>"; };
+		EDB40F9A15646A5400DE4F6C /* C4LogoiPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Portrait@2x.png"; path = "Logos/C4LogoiPad-Portrait@2x.png"; sourceTree = "<group>"; };
+		EDB40FA915646C4B00DE4F6C /* C4DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4DateTime.h; sourceTree = "<group>"; };
+		EDB40FAA15646C4B00DE4F6C /* C4DateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4DateTime.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB40F2C15646A5200DE4F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB40F3415646A5200DE4F6C /* AVFoundation.framework in Frameworks */,
+				EDB40F3615646A5200DE4F6C /* CoreFoundation.framework in Frameworks */,
+				EDB40F3815646A5200DE4F6C /* CoreGraphics.framework in Frameworks */,
+				EDB40F3A15646A5200DE4F6C /* CoreImage.framework in Frameworks */,
+				EDB40F3C15646A5200DE4F6C /* CoreMedia.framework in Frameworks */,
+				EDB40F3E15646A5200DE4F6C /* CoreText.framework in Frameworks */,
+				EDB40F4015646A5200DE4F6C /* Foundation.framework in Frameworks */,
+				EDB40F4215646A5200DE4F6C /* OpenGLES.framework in Frameworks */,
+				EDB40F4415646A5200DE4F6C /* QuartzCore.framework in Frameworks */,
+				EDB40F4615646A5200DE4F6C /* UIKit.framework in Frameworks */,
+				EDB40F7215646A5300DE4F6C /* libC4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB40F2415646A5200DE4F6C = {
+			isa = PBXGroup;
+			children = (
+				EDB40F4715646A5200DE4F6C /* clockLabel */,
+				EDB40F3215646A5200DE4F6C /* Frameworks */,
+				EDB40F3015646A5200DE4F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB40F3015646A5200DE4F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F2F15646A5200DE4F6C /* clockLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB40F3215646A5200DE4F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F3315646A5200DE4F6C /* AVFoundation.framework */,
+				EDB40F3515646A5200DE4F6C /* CoreFoundation.framework */,
+				EDB40F3715646A5200DE4F6C /* CoreGraphics.framework */,
+				EDB40F3915646A5200DE4F6C /* CoreImage.framework */,
+				EDB40F3B15646A5200DE4F6C /* CoreMedia.framework */,
+				EDB40F3D15646A5200DE4F6C /* CoreText.framework */,
+				EDB40F3F15646A5200DE4F6C /* Foundation.framework */,
+				EDB40F4115646A5200DE4F6C /* OpenGLES.framework */,
+				EDB40F4315646A5200DE4F6C /* QuartzCore.framework */,
+				EDB40F4515646A5200DE4F6C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB40F4715646A5200DE4F6C /* clockLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F5415646A5200DE4F6C /* C4WorkSpace.m */,
+				EDB40FA915646C4B00DE4F6C /* C4DateTime.h */,
+				EDB40FAA15646C4B00DE4F6C /* C4DateTime.m */,
+				EDB40F7F15646A5400DE4F6C /* C4Canvas.xib */,
+				EDB40F5615646A5200DE4F6C /* Framework */,
+				EDB40F7C15646A5400DE4F6C /* Logos */,
+				EDB40F4815646A5200DE4F6C /* Supporting Files */,
+			);
+			path = clockLabel;
+			sourceTree = "<group>";
+		};
+		EDB40F4815646A5200DE4F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F4915646A5200DE4F6C /* clockLabel-Info.plist */,
+				EDB40F4A15646A5200DE4F6C /* InfoPlist.strings */,
+				EDB40F4D15646A5200DE4F6C /* main.m */,
+				EDB40F4F15646A5200DE4F6C /* clockLabel-Prefix.pch */,
+				EDB40F5015646A5200DE4F6C /* C4WorkSpace.h */,
+				EDB40F5115646A5200DE4F6C /* C4AppDelegate.h */,
+				EDB40F5215646A5200DE4F6C /* C4AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB40F5615646A5200DE4F6C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F5715646A5200DE4F6C /* C4CanvasController.h */,
+				EDB40F5815646A5200DE4F6C /* C4Control.h */,
+				EDB40F5915646A5200DE4F6C /* C4Defines.h */,
+				EDB40F5A15646A5200DE4F6C /* C4EAGLES1Renderer.h */,
+				EDB40F5B15646A5200DE4F6C /* C4EAGLESRenderer.h */,
+				EDB40F5C15646A5200DE4F6C /* C4EAGLLayer.h */,
+				EDB40F5D15646A5200DE4F6C /* C4Font.h */,
+				EDB40F5E15646A5200DE4F6C /* C4Foundation.h */,
+				EDB40F5F15646A5200DE4F6C /* C4Gesture.h */,
+				EDB40F6015646A5200DE4F6C /* C4GL.h */,
+				EDB40F6115646A5200DE4F6C /* C4GL1Renderer.h */,
+				EDB40F6215646A5200DE4F6C /* C4Image.h */,
+				EDB40F6315646A5200DE4F6C /* C4Label.h */,
+				EDB40F6415646A5300DE4F6C /* C4Layer.h */,
+				EDB40F6515646A5300DE4F6C /* C4LayerAnimation.h */,
+				EDB40F6615646A5300DE4F6C /* C4Math.h */,
+				EDB40F6715646A5300DE4F6C /* C4Movie.h */,
+				EDB40F6815646A5300DE4F6C /* C4Notification.h */,
+				EDB40F6915646A5300DE4F6C /* C4Object.h */,
+				EDB40F6A15646A5300DE4F6C /* C4PlayerLayer.h */,
+				EDB40F6B15646A5300DE4F6C /* C4Sample.h */,
+				EDB40F6C15646A5300DE4F6C /* C4Shape.h */,
+				EDB40F6D15646A5300DE4F6C /* C4ShapeLayer.h */,
+				EDB40F6E15646A5300DE4F6C /* C4View.h */,
+				EDB40F6F15646A5300DE4F6C /* C4Window.h */,
+				EDB40F7015646A5300DE4F6C /* UITouch+C4Touch.h */,
+				EDB40F7115646A5300DE4F6C /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		EDB40F7C15646A5400DE4F6C /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				EDB40F7D15646A5400DE4F6C /* iTunesArtwork.png */,
+				EDB40F8215646A5400DE4F6C /* C4LogoiPad-01.png */,
+				EDB40F8415646A5400DE4F6C /* C4LogoiPad-01@2x.png */,
+				EDB40F8615646A5400DE4F6C /* C4LogoiPad-02.png */,
+				EDB40F8815646A5400DE4F6C /* C4LogoiPad-03.png */,
+				EDB40F8A15646A5400DE4F6C /* C4LogoiPad-04.png */,
+				EDB40F8C15646A5400DE4F6C /* C4LogoiPad-05.png */,
+				EDB40F8E15646A5400DE4F6C /* C4LogoiPad-06.png */,
+				EDB40F9015646A5400DE4F6C /* C4LogoiPad-07.png */,
+				EDB40F9215646A5400DE4F6C /* C4LogoiPad-08.png */,
+				EDB40F9415646A5400DE4F6C /* C4LogoiPad-Landscape.png */,
+				EDB40F9615646A5400DE4F6C /* C4LogoiPad-Portrait.png */,
+				EDB40F9815646A5400DE4F6C /* C4LogoiPad-Landscape@2x.png */,
+				EDB40F9A15646A5400DE4F6C /* C4LogoiPad-Portrait@2x.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB40F2E15646A5200DE4F6C /* clockLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB40F9E15646A5400DE4F6C /* Build configuration list for PBXNativeTarget "clockLabel" */;
+			buildPhases = (
+				EDB40F2B15646A5200DE4F6C /* Sources */,
+				EDB40F2C15646A5200DE4F6C /* Frameworks */,
+				EDB40F2D15646A5200DE4F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clockLabel;
+			productName = clockLabel;
+			productReference = EDB40F2F15646A5200DE4F6C /* clockLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB40F2615646A5200DE4F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = POSTFL;
+			};
+			buildConfigurationList = EDB40F2915646A5200DE4F6C /* Build configuration list for PBXProject "clockLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDB40F2415646A5200DE4F6C;
+			productRefGroup = EDB40F3015646A5200DE4F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB40F2E15646A5200DE4F6C /* clockLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB40F2D15646A5200DE4F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB40F4C15646A5200DE4F6C /* InfoPlist.strings in Resources */,
+				EDB40F7E15646A5400DE4F6C /* iTunesArtwork.png in Resources */,
+				EDB40F8115646A5400DE4F6C /* C4Canvas.xib in Resources */,
+				EDB40F8315646A5400DE4F6C /* C4LogoiPad-01.png in Resources */,
+				EDB40F8515646A5400DE4F6C /* C4LogoiPad-01@2x.png in Resources */,
+				EDB40F8715646A5400DE4F6C /* C4LogoiPad-02.png in Resources */,
+				EDB40F8915646A5400DE4F6C /* C4LogoiPad-03.png in Resources */,
+				EDB40F8B15646A5400DE4F6C /* C4LogoiPad-04.png in Resources */,
+				EDB40F8D15646A5400DE4F6C /* C4LogoiPad-05.png in Resources */,
+				EDB40F8F15646A5400DE4F6C /* C4LogoiPad-06.png in Resources */,
+				EDB40F9115646A5400DE4F6C /* C4LogoiPad-07.png in Resources */,
+				EDB40F9315646A5400DE4F6C /* C4LogoiPad-08.png in Resources */,
+				EDB40F9515646A5400DE4F6C /* C4LogoiPad-Landscape.png in Resources */,
+				EDB40F9715646A5400DE4F6C /* C4LogoiPad-Portrait.png in Resources */,
+				EDB40F9915646A5400DE4F6C /* C4LogoiPad-Landscape@2x.png in Resources */,
+				EDB40F9B15646A5400DE4F6C /* C4LogoiPad-Portrait@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB40F2B15646A5200DE4F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB40F4E15646A5200DE4F6C /* main.m in Sources */,
+				EDB40F5315646A5200DE4F6C /* C4AppDelegate.m in Sources */,
+				EDB40F5515646A5200DE4F6C /* C4WorkSpace.m in Sources */,
+				EDB40FAB15646C4B00DE4F6C /* C4DateTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB40F4A15646A5200DE4F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB40F4B15646A5200DE4F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDB40F7F15646A5400DE4F6C /* C4Canvas.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB40F8015646A5400DE4F6C /* en */,
+			);
+			name = C4Canvas.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB40F9C15646A5400DE4F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDB40F9D15646A5400DE4F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB40F9F15646A5400DE4F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clockLabel/clockLabel-Prefix.pch";
+				INFOPLIST_FILE = "clockLabel/clockLabel-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/clockLabel/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDB40FA015646A5400DE4F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clockLabel/clockLabel-Prefix.pch";
+				INFOPLIST_FILE = "clockLabel/clockLabel-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/clockLabel/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB40F2915646A5200DE4F6C /* Build configuration list for PBXProject "clockLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB40F9C15646A5400DE4F6C /* Debug */,
+				EDB40F9D15646A5400DE4F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB40F9E15646A5400DE4F6C /* Build configuration list for PBXNativeTarget "clockLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB40F9F15646A5400DE4F6C /* Debug */,
+				EDB40FA015646A5400DE4F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB40F2615646A5200DE4F6C /* Project object */;
+}
